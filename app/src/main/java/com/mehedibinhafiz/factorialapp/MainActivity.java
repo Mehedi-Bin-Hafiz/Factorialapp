@@ -2,6 +2,8 @@ package com.mehedibinhafiz.factorialapp;
 
 import androidx.annotation.IntRange;
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -28,6 +30,12 @@ public class MainActivity extends AppCompatActivity {
         }
         String v = String.valueOf(fac);
         edt1.setText(v);
+
+    }
+
+    public void about(View view){
+        Intent about= new Intent(MainActivity.this, com.mehedibinhafiz.factorialapp.about.class);
+        startActivity(about);
 
     }
 }
