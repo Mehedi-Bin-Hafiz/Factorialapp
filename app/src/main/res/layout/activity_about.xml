@@ -8,12 +8,13 @@
     android:orientation="vertical"
     >
     <TextView
+        android:textAlignment="center"
         android:fontFamily="sans-serif-condensed"
         android:layout_marginTop="200dp"
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="     Name: Md. Mehedi Hasan \n Daffodil International University \n                    Batch: 47 "
+        android:text=" Name: Md. Mehedi Hasan \n Daffodil International University, Bangladesh.\n Email: mehedi15-8421@diu.edu.bd\n Batch: 47 "
         >
 
     </TextView>
